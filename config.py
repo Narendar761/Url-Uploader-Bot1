@@ -35,7 +35,7 @@ class Config(object):
     # Set timeout for subprocess
     PROCESS_MAX_TIMEOUT = 3700
 
-    OWNER_ID = os.environ.get("819861991", "6865155711")
+    OWNER_ID = os.environ.get("6865155711")
     ADL_BOT_RQ = {}
     AUTH_USERS = list({int(x) for x in os.environ.get("AUTH_USERS", "0").split()})
     AUTH_USERS.append(OWNER_ID)
